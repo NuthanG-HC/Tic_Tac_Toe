@@ -1,0 +1,56 @@
+#main_div{
+  display: grid;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  grid-template-columns: auto auto auto ;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  font-size: 38px; 
+  color: darkred; 
+}
+p{
+    display: flex;
+    justify-content: center;
+    color: coral; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+#main_div{
+  display: grid;
+  margin: auto;
+  margin-top: 50px;
+}
+#restart{
+    display: flex;
+    margin: auto;
+    margin-top: 30px ;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 6px;
+}
+#turn{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    color: red
+    
+}
+.row :hover{
+    background-color: cyan;
+
+}
+.row{
+  border: 1px solid black;
+  font-size: 25px;
+  display: grid;
+  place-items:center;
+ 
+}
+#won{
+    font-weight: bold;
+    font-size: 50px;
+    color: blue;
+}
